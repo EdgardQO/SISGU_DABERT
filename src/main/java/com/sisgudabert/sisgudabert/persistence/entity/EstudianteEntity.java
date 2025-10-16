@@ -20,7 +20,7 @@ public class EstudianteEntity {
     private Integer idRol;
 
     @Column(nullable = false, length = 10, unique = true)
-    private Integer codigoEstudiante;
+    private String codigoEstudiante;
 
     @Column(nullable = false, length = 100)
     private String nombreEstudiante;
